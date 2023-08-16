@@ -28,6 +28,8 @@
 
     <!-- Bootstrap core JavaScript -->
     @stack('prepent-script')
+    
+    @include('template.dashscript')
     @stack('addon-script')
   </body>
 </html>
